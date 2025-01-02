@@ -36,8 +36,15 @@ public static void main(String[] args){
  int[] arr = new int[size]; */
 
 
- int[] arr = {3, 6, 17, 26, 12};
-System.out.println(arr.length);
+ //inputArray(arr);
+ //printArray(arr);
+ //findMissingNum(arr);
+
+
+
+ //*****Find Greatest Number in the Array Elements
+ /* int[] arr = {3, 6, 17, 26, 12};
+ System.out.println(arr.length);
 
  int greatest = 0;
  for(int i = 0; i < arr.length; i++){
@@ -45,12 +52,51 @@ System.out.println(arr.length);
  greatest = arr[i];
  }
  }
-System.out.println(greatest);
+System.out.println(greatest); */
 
 
- //inputArray(arr);
- //printArray(arr);
- //findMissingNum(arr);
+
+ //********Print the Fabonacci Sequence********
+ /* System.out.print("Enter the Number: ");
+ int num = sc.nextInt();
+ int first = 0;
+ int second = 1;
+ System.out.print("Fabonacci Sequence: " + first + " " + second + " ");
+
+ for(int i = 3; i <= num; i++){
+ int sum = first + second;
+ first = second;
+ second = sum;
+ System.out.print(sum + " ");
+ }
+System.out.println(); */
+
+
+ //************Find the GCD************
+ /* int n1 = sc.nextInt();
+ int n2 = sc.nextInt();
+
+ while(n1 % n2 != 0){
+ int rem = n1 % n2;
+ n1 = n2;
+ n2 = rem;
+ }
+
+ int gcd = n2;
+System.out.println(gcd); */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
