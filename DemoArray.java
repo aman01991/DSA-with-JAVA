@@ -122,7 +122,7 @@ public static void main(String[] args){
 
 
  //****Take a User Input Number to store each digit in an array****
- System.out.print("Enter Numbers: ");
+  System.out.print("Enter Numbers: ");
  int n = sc.nextInt();
 
  int n1 = n;
@@ -140,7 +140,22 @@ public static void main(String[] args){
  }
 
  printArray(arr6); 
- reverseArray(arr6);
+ reverseArray(arr6); 
+
+
+
+ //*******Reverse the Array without using method*******
+ /* int[] arr = {10, 20, 30, 40, 50, 60};
+
+ int[] reverseArr = new int[arr.length];
+ for(int i = 0; i < reverseArr.length; i++){
+ reverseArr[i] = arr[arr.length-1-i];
+ }
+
+ for(int i = 0; i < reverseArr.length; i++){
+ System.out.print(reverseArr[i] + " ");
+ } */
+
  
 
 
