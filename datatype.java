@@ -1,25 +1,26 @@
 import java.util.Scanner;
+
 class Datatype{
 
-//static double add(float a, double b){
-//return a+b;
-//}
-
-//static float add(int a, float b){
-//return a+b;
-//}
-
-static int add(short a, int b){
-return a+b;
+static double add(float a, double b){
+ return a+b;
 }
 
-//static void add (float a, double b){
-//System.out.println(a+b);
-//}
+static float add(int a, float b){
+ return a+b;
+}
+
+static int add(short a, int b){
+ return a+b;
+}
+
+static void add(float a, double b){
+ System.out.println(a+b);
+} 
 
 public static void main (String[] args){
  Scanner sc = new Scanner(System.in);
- Datatype dt = new Datatype();
+ //Datatype dt = new Datatype();
  System.out.println("Enter a Value : ");
  
  int i = sc.nextInt();

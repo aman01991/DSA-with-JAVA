@@ -57,11 +57,11 @@ public static void main(String[] args){
  //*********Opposite of mirror of traingle Pattern
  for(int i = 0; i < r; i++){ 
  for (int j = 0; j < r; j++){
- if (j < i){
- System.out.print(" ");
+ if (j < r-i-1){
+ System.out.print("*");
  } 
  else{
- System.out.print("*");
+ System.out.print(" ");
  }
  }
  System.out.println(" "); 

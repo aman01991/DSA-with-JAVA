@@ -11,9 +11,12 @@ System.out.println("This is double type: " + b);
 double c;
 c=b;
 b=a;  // widening
-a=(int)c;//narrowing double>long>float>int>short>byte
-System.out.println( (double)a);
-System.out.println( (int)b);
+a=(int)c;
+
+//Narrowing double>long>float>int>short>byte
+
+System.out.println((double)a);
+System.out.println((int)b);
 
 
 }
